@@ -8,7 +8,7 @@
 // Global all the things/variables!
 
 // auth
-var CLIENT_ID = '8da32c6e9f9f4edab31faa41d9f10afd';
+var CLIENT_ID = '0130b279c349448e845051392e21a92b';
 var SCOPES = [
   'user-read-currently-playing',
   'user-read-playback-state',
@@ -190,7 +190,7 @@ function sendCommand(method, command, querystring) {
 }
 
 function fetchVectors(albumimage, callback) {
-  createRequest('POST', 'https://ilovepolygons.possan.se/convert', function (request) {
+  createRequest('POST', 'https://polygons.gigafyde.dev/convert', function (request) {
     if (request.status >= 200 && request.status < 400) {
       nextVectorData = JSON.parse(request.responseText);
       callback();

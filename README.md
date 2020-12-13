@@ -5,7 +5,7 @@ WebGL Now Playing Hack
 
 A example of how to use the newly released [Spotify Connect Web APIs](https://developer.spotify.com/web-api/web-api-connect-endpoint-reference/) to render the currently playing artwork in a slightly different way using WebGL.
 
-[Click here to open the online version](https://possan.github.io/webgl-spotify-connect-now-playing-screen-example)
+[Click here to open the online version](https://gigafyde.github.io/webgl-spotify-connect-now-playing-screen-example)
 
 Download the repo, run `python -m SimpleHTTPServer 8000` in the folder that you just downloaded to host a webserver on port 8000, open `http://localhost:8000` in your webgl capable browser. It should ask you for permission to know what you are currently playing and to control playback.
 
